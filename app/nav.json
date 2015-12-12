@@ -1,0 +1,22 @@
+[
+  {
+    "text": "我想要",
+    "nextExist": false,
+    "active": "active"
+  },
+  {
+    "text": "我需要",
+    "nextExist": false,
+    "active": ""
+  },
+  {
+    "text": "我覺得",
+    "nextExist": false,
+    "active": ""
+  },
+  {
+    "text": 13,
+    "nextExist": false,
+    "active": ""
+  }
+]

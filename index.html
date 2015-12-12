@@ -1,0 +1,58 @@
+<html ng-app="TalkingApp">
+  <head>
+    <link href="app/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="app/css/nav.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+    <script src="https://cdn.firebase.com/js/client/2.3.2/firebase.js"></script>
+    <script src="https://cdn.firebase.com/libs/angularfire/1.1.3/angularfire.min.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src='https://code.responsivevoice.org/responsivevoice.js'></script>
+  </head>
+
+  <body ng-controller="SpeechCtrl as speech">
+    <div style="height:100%; width: 100%;" class="ng-isolate-scope">
+    <!--
+      1. restroom = 上廁所
+      2. thankYou = 謝謝
+      3. walk = 我想散步
+      4. bye = 再見
+      5. IMissYou = 我想你
+      6. water = 喝水
+    -->
+
+    <!-- <div class="btn-group btn-group-justified" role="group">
+      <div class="btn-group" role="group" ng-repeat="nav in speech.nav" ng-click="pronounce(nav)" >
+        <button type="button" class="btn btn-default" style="height=250px;">{{nav.text}}</button>
+      </div>
+    </div> -->
+
+
+      <div class="container" style="height: 100%; width: 100%;" >
+
+        <!-- <div class="row" style="height:20%;">
+          <div class="col-md-3 col-sm-3 col-xs-3 nav-button" style="height: 100%; background: white;" ng-click="pronounce(nav)" ng-repeat="nav in speech.nav">
+            <div class="text-box">
+              <p>{{nav.text}}</p>
+            </div>
+          </div>
+        </div> -->
+
+        <div class="row" style="height: 40%;">
+          <div class="col-md-3 col-sm-3 col-xs-3" style="height: 100%; background: turquoise; border: 1px solid white;"  ng-show="showBack" ng-click="pronounce(speech.collection, true)">
+            <div class="text-box">
+              <p>上一頁</p>
+            </div>
+          </div>
+
+          <div class="col-md-3 col-sm-3 col-xs-3" style="height: 100%; background: coral; border: 1px solid white;" ng-click="pronounce(speech, false)" ng-repeat="speech in speech.collection">
+            <div class="text-box">
+              <p>{{speech.text}}</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </body>
+</html>

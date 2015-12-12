@@ -1,0 +1,186 @@
+[
+  {
+    "text": "我覺得",
+    "level": 1,
+    "label": 1,
+    "nextExist": true,
+    "contents": [
+      {"text":"很開心", "level": 2, "label": 1, "nextExist":false },
+      {"text":"很傷心", "level": 2, "label": 1, "nextExist":false },
+      {"text":"很好笑", "level": 2, "label": 1, "nextExist":false},
+      {"text":"很生氣", "level": 2, "label": 1, "nextExist":false},
+      {"text":"很痛苦", "level": 2, "label": 1, "nextExist":false}
+    ]
+  },
+  {
+    "text": "我想問",
+    "level": 1,
+    "label": 2,
+    "nextExist": true,
+    "contents": [
+      {"text":"你好嗎", "level": 2, "label": 2, "nextExist":false},
+      {"text":"你身體好嗎", "level": 2, "label": 2, "nextExist":false},
+      {"text":"現在幾點", "level": 2, "label": 2, "nextExist":false},
+      {"text":"今天幾號", "level": 2, "label": 2, "nextExist":false},
+      {
+        "text":"家人",
+        "level": 2,
+        "label": 2,
+        "nextExist":true,
+        "contents": [
+          {"text":"阿媽", "level": 3, "label": 2,"nextExist":false},
+          {"text":"奐瑞", "level": 3, "label": 2,"nextExist":false},
+          {"text":"奐凱", "level": 3, "label": 2,"nextExist":false},
+          {"text":"俊良", "level": 3, "label": 2,"nextExist":false},
+          {"text":"彥妙", "level": 3, "label": 2,"nextExist":false}
+        ]
+      },
+      {
+        "text":"朋友",
+        "level": 2,
+        "label": 2,
+        "nextExist":true,
+        "contents": [
+          {"text":"鄰居一", "level": 3, "label": 2,"nextExist":false},
+          {"text":"鄰居二", "level": 3, "label": 2,"nextExist":false},
+          {"text":"鄰居三", "level": 3, "label": 2,"nextExist":false},
+          {"text":"鄰居四", "level": 3, "label": 2,"nextExist":false},
+          {"text":"鄰居五", "level": 3, "label": 2,"nextExist":false}
+        ]
+      }
+    ]
+  },
+  {
+    "text": "我想要",
+    "level": 1,
+    "label": 3,
+    "nextExist": true,
+    "contents": [
+      {"text":"喝水", "level": 2, "label": 3, "nextExist":false},
+      {"text":"洗澡", "level": 2, "label": 3, "nextExist":false},
+      {"text":"睡覺", "level": 2, "label": 3, "nextExist":false},
+      {"text":"吃飯", "level": 2, "label": 3, "nextExist":false},
+      {"text":"散步", "level": 2, "label": 3, "nextExist":false},
+      {"text":"聽音樂", "level": 2, "label": 3, "nextExist":false},
+      {"text":"看照片", "level": 2, "label": 3, "nextExist":false},
+      {"text":"喝水", "level": 2, "label": 3, "nextExist":false},
+      {"text":"去樓上", "level": 2, "label": 3, "nextExist":false},
+      {"text":"拿東西", "level": 2, "label": 3, "nextExist":false},
+      {
+        "text":"家人",
+        "level": 2,
+        "label": 3,
+        "nextExist":true,
+        "contents": [
+          {"text":"阿媽", "level": 3, "label": 3,"nextExist":false},
+          {"text":"奐瑞", "level": 3, "label": 3,"nextExist":false},
+          {"text":"奐凱", "level": 3, "label": 3,"nextExist":false},
+          {"text":"俊良", "level": 3, "label": 3,"nextExist":false},
+          {"text":"彥妙", "level": 3, "label": 3,"nextExist":false}
+        ]
+      },
+      {
+        "text":"朋友",
+        "level": 2,
+        "label": 3,
+        "nextExist":true,
+        "contents": [
+          {"text":"鄰居一", "level": 3, "label": 3,"nextExist":false},
+          {"text":"鄰居二", "level": 3, "label": 3,"nextExist":false},
+          {"text":"鄰居三", "level": 3, "label": 3,"nextExist":false},
+          {"text":"鄰居四", "level": 3, "label": 3,"nextExist":false},
+          {"text":"鄰居五", "level": 3, "label": 3,"nextExist":false}
+        ]
+      }
+    ]
+  },
+  {
+    "text": "打招呼",
+    "level": 1,
+    "label": 4,
+    "nextExist": true,
+    "contents": [
+      {"text":"你好", "level": 2, "label": 4, "nextExist":false},
+      {"text":"謝謝", "level": 2, "label": 4, "nextExist":false},
+      {"text":"好久不見", "level": 2, "label": 4, "nextExist":false},
+      {"text":"再見", "level": 2, "label": 4, "nextExist":false},
+      {"text":"明天見", "level": 2, "label": 4, "nextExist":false}
+    ]
+  },
+  {
+    "text": "溫度",
+    "level": 1,
+    "label": 5,
+    "nextExist": true,
+    "contents": [
+      {"text":"太熱", "level": 2, "label": 5, "nextExist":false},
+      {"text":"太冷", "level": 2, "label": 5, "nextExist":false},
+      {"text":"很舒服", "level": 2, "label": 5, "nextExist":false},
+      {"text":"剛剛好", "level": 2, "label": 5, "nextExist":false}
+    ]
+  },
+  {
+    "text": "是，否，或許",
+    "level": 1,
+    "label": 6,
+    "nextExist": true,
+    "contents": [
+      {"text":"好", "level": 2, "label": 6, "nextExist":false},
+      {"text":"不用", "level": 2, "label": 6, "nextExist":false},
+      {"text":"不要", "level": 2, "label": 6, "nextExist":false},
+      {"text":"或許", "level": 2, "label": 6, "nextExist":false}
+    ]
+  },
+  {
+    "text": "7",
+    "level": 1,
+    "label": 7,
+    "nextExist": true,
+    "contents": [
+      {"text":"7-1", "level": 2, "label": 7, "nextExist":false},
+      {"text":"7-2", "level": 2, "label": 7, "nextExist":false},
+      {"text":"7-3", "level": 2, "label": 7, "nextExist":false},
+      {"text":"7-4", "level": 2, "label": 7, "nextExist":false},
+      {"text":"7-5", "level": 2, "label": 7, "nextExist":false}
+    ]
+  },
+  {
+    "text": 8,
+    "level": 1,
+    "label": 8,
+    "nextExist": true,
+    "contents": [
+      {"text":"8-1", "level": 2, "label": 8, "nextExist":false},
+      {"text":"8-2", "level": 2, "label": 8, "nextExist":false},
+      {"text":"8-3", "level": 2, "label": 8, "nextExist":false},
+      {"text":"8-4", "level": 2, "label": 8, "nextExist":false},
+      {"text":"8-5", "level": 2, "label": 8, "nextExist":false}
+    ]
+  },
+  {
+    "text": 9,
+    "level": 1,
+    "label": 9,
+    "nextExist": true,
+    "contents": [
+      {"text":"9-1", "level": 2, "label": 9, "nextExist":false},
+      {"text":"9-2", "level": 2, "label": 9, "nextExist":false},
+      {"text":"9-3", "level": 2, "label": 9, "nextExist":false},
+      {"text":"9-4", "level": 2, "label": 9, "nextExist":false},
+      {"text":"9-5", "level": 2, "label": 9, "nextExist":false}
+    ]
+  },
+  {
+    "text": 10,
+    "level": 1,
+    "label": 10,
+    "nextExist": true,
+    "contents": [
+      {"text":"10-1", "level": 2, "label": 10, "nextExist":false},
+      {"text":"10-2", "level": 2, "label": 10, "nextExist":false},
+      {"text":"10-3", "level": 2, "label": 10, "nextExist":false},
+      {"text":"10-4", "level": 2, "label": 10, "nextExist":false},
+      {"text":"10-5", "level": 2, "label": 10, "nextExist":false}
+    ]
+  }
+]
