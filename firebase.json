@@ -1,5 +1,5 @@
 {
-  "firebase": "talkingapptest",
+  "firebase": "talkingapp",
   "public": ".",
   "ignore": [
     "firebase.json",

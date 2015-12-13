@@ -29,10 +29,10 @@
         "nextExist":true,
         "contents": [
           {"text":"阿媽", "level": 3, "label": 2,"nextExist":false},
-          {"text":"奐瑞", "level": 3, "label": 2,"nextExist":false},
-          {"text":"奐凱", "level": 3, "label": 2,"nextExist":false},
           {"text":"俊良", "level": 3, "label": 2,"nextExist":false},
-          {"text":"彥妙", "level": 3, "label": 2,"nextExist":false}
+          {"text":"俊伯", "level": 3, "label": 2,"nextExist":false},
+          {"text":"俊誠", "level": 3, "label": 2,"nextExist":false},
+          {"text":"俊豪", "level": 3, "label": 2,"nextExist":false}
         ]
       },
       {
@@ -63,7 +63,6 @@
       {"text":"散步", "level": 2, "label": 3, "nextExist":false},
       {"text":"聽音樂", "level": 2, "label": 3, "nextExist":false},
       {"text":"看照片", "level": 2, "label": 3, "nextExist":false},
-      {"text":"喝水", "level": 2, "label": 3, "nextExist":false},
       {"text":"去樓上", "level": 2, "label": 3, "nextExist":false},
       {"text":"拿東西", "level": 2, "label": 3, "nextExist":false},
       {
@@ -73,10 +72,10 @@
         "nextExist":true,
         "contents": [
           {"text":"阿媽", "level": 3, "label": 3,"nextExist":false},
-          {"text":"奐瑞", "level": 3, "label": 3,"nextExist":false},
-          {"text":"奐凱", "level": 3, "label": 3,"nextExist":false},
           {"text":"俊良", "level": 3, "label": 3,"nextExist":false},
-          {"text":"彥妙", "level": 3, "label": 3,"nextExist":false}
+          {"text":"俊伯", "level": 3, "label": 3,"nextExist":false},
+          {"text":"俊誠", "level": 3, "label": 3,"nextExist":false},
+          {"text":"俊豪", "level": 3, "label": 3,"nextExist":false}
         ]
       },
       {
@@ -129,58 +128,6 @@
       {"text":"不用", "level": 2, "label": 6, "nextExist":false},
       {"text":"不要", "level": 2, "label": 6, "nextExist":false},
       {"text":"或許", "level": 2, "label": 6, "nextExist":false}
-    ]
-  },
-  {
-    "text": "7",
-    "level": 1,
-    "label": 7,
-    "nextExist": true,
-    "contents": [
-      {"text":"7-1", "level": 2, "label": 7, "nextExist":false},
-      {"text":"7-2", "level": 2, "label": 7, "nextExist":false},
-      {"text":"7-3", "level": 2, "label": 7, "nextExist":false},
-      {"text":"7-4", "level": 2, "label": 7, "nextExist":false},
-      {"text":"7-5", "level": 2, "label": 7, "nextExist":false}
-    ]
-  },
-  {
-    "text": 8,
-    "level": 1,
-    "label": 8,
-    "nextExist": true,
-    "contents": [
-      {"text":"8-1", "level": 2, "label": 8, "nextExist":false},
-      {"text":"8-2", "level": 2, "label": 8, "nextExist":false},
-      {"text":"8-3", "level": 2, "label": 8, "nextExist":false},
-      {"text":"8-4", "level": 2, "label": 8, "nextExist":false},
-      {"text":"8-5", "level": 2, "label": 8, "nextExist":false}
-    ]
-  },
-  {
-    "text": 9,
-    "level": 1,
-    "label": 9,
-    "nextExist": true,
-    "contents": [
-      {"text":"9-1", "level": 2, "label": 9, "nextExist":false},
-      {"text":"9-2", "level": 2, "label": 9, "nextExist":false},
-      {"text":"9-3", "level": 2, "label": 9, "nextExist":false},
-      {"text":"9-4", "level": 2, "label": 9, "nextExist":false},
-      {"text":"9-5", "level": 2, "label": 9, "nextExist":false}
-    ]
-  },
-  {
-    "text": 10,
-    "level": 1,
-    "label": 10,
-    "nextExist": true,
-    "contents": [
-      {"text":"10-1", "level": 2, "label": 10, "nextExist":false},
-      {"text":"10-2", "level": 2, "label": 10, "nextExist":false},
-      {"text":"10-3", "level": 2, "label": 10, "nextExist":false},
-      {"text":"10-4", "level": 2, "label": 10, "nextExist":false},
-      {"text":"10-5", "level": 2, "label": 10, "nextExist":false}
     ]
   }
 ]
